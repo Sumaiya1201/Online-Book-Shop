@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids Read</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+      </svg>
+      <a class="navbar-brand" href="#">KidsRead</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Go to cart</a>
+          </li>
+          
+          <a href="login.html">
+            <button class="btn btn-outline-info" style="margin-right: 10px;" type="submit">Login</button>
+
+          </a>
+          
+          <a href="signup.html">
+            <button class="btn btn-outline-info" type="secondary">Sign Up</button>
+
+          </a>
+             
+            </ul>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav> 
+  <div class="px-4 py-1 my-2 text-center">
+    <img class="image" src="./kidsbook.jpg" style="max-width:100%;" width="1000" height="700">
+    <h2 class="display-5 fw-bold text-body-emphasis"style="font-size: 2rem;">Shop the best books for your kid!</h2>
+  </div>
+    
+      <div class="container" id="best-collections">
+        <div class="card" style="width: 18rem;">
+          <img src="./rhymes.jpg" class="card-img-top" height="300px" alt="rhymes">
+            <h5 class="card-title" style="font-size: larger;">In rhymes</h5>
+        </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./storybooks.jpg" class="card-img-top"  height="300px" alt="storybooks">
+          
+              <h5 class="card-title" style="font-size: larger;">Storybooks</h5>
+          </div>
+            
+            <div class="card" style="width: 18rem;">
+              <img src="./science.png" class="card-img-top" height="300px" alt="Science">
+              
+                <h5 class="card-title" style="font-size: larger;">Science</h5>
+            </div>
+              
+              <div class="card" style="width: 18rem;">
+                <img src="./GK.png" class="card-img-top"  height="300px" alt="GK">
+
+        
+                  <h5 class="card-title" style="font-size: larger;">Know the world</h5>
+              </div>
+          
+        </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./slide 1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="./slide 2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="./slide 3.jpg" class="d-block w-100">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      
+      
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+</body>
+</html>
+
+
